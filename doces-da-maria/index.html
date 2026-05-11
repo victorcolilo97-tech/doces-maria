@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Doces da Maria</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="container">
+      <div class="logo">
+        <div class="logo-icone">DM</div>
+        <div class="logo-nome">
+          <h1>Doces da Maria</h1>
+          <span>feitos com amor desde 1994</span>
+        </div>
+      </div>
+      <div class="header-btns">
+        <a href="adm/admin.html" class="btn btn-sec btn-sm">Editor</a>
+        <a href="https://wa.me/5551993705432" target="_blank" rel="noopener noreferrer" class="btn btn-wpp btn-sm">WhatsApp</a>
+      </div>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h2>Doces que fazem o <em>coração sorrir</em></h2>
+      <p>Brigadeiros artesanais, bolos e tortas feitos com ingredientes selecionados e muito carinho.</p>
+      <div class="hero-btns">
+        <a href="#catalogo" class="btn btn-primary">Ver Catálogo</a>
+        <a href="https://wa.me/5551993705432?text=Oi%20Dona%20Maria!%20Quero%20fazer%20um%20pedido" target="_blank" rel="noopener noreferrer" class="btn btn-wpp">Pedir pelo WhatsApp</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="busca-area">
+    <div class="container">
+      <div class="busca-wrap">
+        <div class="campo-busca">
+          <input type="text" id="busca" placeholder="Buscar doces...">
+        </div>
+      </div>
+      <div class="filtros" id="filtros"></div>
+    </div>
+  </section>
+
+  <section class="catalogo" id="catalogo">
+    <div class="container">
+      <h2 class="secao-h2">Nossos Doces</h2>
+      <div class="grid" id="grid"></div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-cols">
+        <div class="footer-col">
+          <h4>Doces da Maria</h4>
+          <p>Encomendas para festas, aniversários e presentes. Feito em casa com qualidade.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Contato</h4>
+          <a href="https://wa.me/5551993705432" target="_blank" rel="noopener noreferrer">WhatsApp</a><br>
+          <a href="mailto:doces@maria.com">doces@maria.com</a><br>
+          <p>Sua cidade, RS</p>
+        </div>
+        <div class="footer-col">
+          <h4>Encomendas</h4>
+          <p>Pedidos com no mínimo <strong style="color:var(--rosa)">48h de antecedência</strong>. Consulte entrega!</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 Doces da Maria</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/models/DoceModel.js"></script>
+  <script src="js/services/StorageService.js"></script>
+  <script src="js/controllers/DoceController.js"></script>
+  <script src="js/controllers/CatalogoController.js"></script>
+</body>
+</html>

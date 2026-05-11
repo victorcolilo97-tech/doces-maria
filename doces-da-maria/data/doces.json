@@ -1,0 +1,56 @@
+
+  {
+    "id": 3,
+    "nome": "Bolo de Cenoura",
+    "descricao": "Bolo de cenoura com cobertura de chocolate, o favorito da galera",
+    "preco": 55.00,
+    "categoria": "bolos",
+    "img": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400&h=400&fit=crop",
+    "destaque": false
+  },
+  {
+    "id": 4,
+    "nome": "Bolo Red Velvet",
+    "descricao": "Bolo vermelho com cream cheese, fica bonito demais nas fotos",
+    "preco": 85.00,
+    "categoria": "bolos",
+    "img": "https://images.unsplash.com/photo-1536613083581-06c2917f3b40?w=400&h=400&fit=crop",
+    "destaque": true
+  },
+  {
+    "id": 5,
+    "nome": "Torta de Morango",
+    "descricao": "Torta com creme e morangos frescos por cima",
+    "preco": 72.00,
+    "categoria": "tortas",
+    "img": "https://images.unsplash.com/photo-1567166403399-537a7c915339?w=400&h=400&fit=crop",
+    "destaque": false
+  },
+  {
+    "id": 6,
+    "nome": "Torta de Limao",
+    "descricao": "Torta de limao siciliano com merengue em cima, muito boa",
+    "preco": 68.00,
+    "categoria": "tortas",
+    "img": "https://images.unsplash.com/photo-1565958011703-44f9829ba187?w=400&h=400&fit=crop",
+    "destaque": true
+  },
+  {
+    "id": 7,
+    "nome": "Trufa de Chocolate",
+    "descricao": "Trufa artesanal com chocolate amargo, bem consistente",
+    "preco": 6.00,
+    "categoria": "trufas",
+    "img": "https://images.unsplash.com/photo-1515073963205-2f1f18a7306f?w=400&h=400&fit=crop",
+    "destaque": false
+  },
+  {
+    "id": 8,
+    "nome": "Trufa de Maracuja",
+    "descricao": "Trufa com recheio de maracuja e chocolate branco por fora",
+    "preco": 6.50,
+    "categoria": "trufas",
+    "img": "https://images.unsplash.com/photo-1577805947697-89e18249d767?w=400&h=400&fit=crop",
+    "destaque": false
+  }
+]

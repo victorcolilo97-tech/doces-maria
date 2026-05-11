@@ -1,8 +1,8 @@
-## inicialização do projeto
+-- inicialização do projeto
 
 O projeto usa fetch pra carregar um arquivo JSON, entao nao da pra abrir direto clicando no index.html. Precisa rodar num servidor pois usei a extensão live server para fazer o projeto rodar
 
-## Organizacao das pastas
+-- Organizacao das pastas
 
 Organizei o projeto assim:
 
@@ -16,27 +16,27 @@ js/controllers/ - tem 3 arquivos que controlam as paginas
 
 Separei em pastas diferentes pra ficar mais organizado e facil de achar as coisas quando precisar mexer.
 
-## Como funciona
+-- Como funciona
 
 Quando o usuario abre o site pela primeira vez o sistema carrega os doces do arquivo doces.json e salva no localStorage do navegador. Depois disso sempre que fizer alguma alteracao (adicionar, editar ou remover) os dados ficam salvos la.
 
 Na pagina principal tem:
 
-* Lista de todos os doces com foto, nome, preco e descricao
-* Filtros por categoria (brigadeiros, bolos, tortas etc)
-* Campo de busca pra procurar por nome
-* Botao de WhatsApp(abre o chat direto com meu número) em cada doce pra fazer pedido
+ Lista de todos os doces com foto, nome, preco e descricao
+ Filtros por categoria (brigadeiros, bolos, tortas etc)
+ Campo de busca pra procurar por nome
+*otao de WhatsApp(abre o chat direto com meu número) em cada doce pra fazer pedido
 
 Na area de administracao tem:
 
-* Formulario pra cadastrar doce novo
-* Lista de todos os doces cadastrados
-* Botao de editar que preenche o formulario
-* Botao de remover que pede confirmacao antes
-* Estatisticas mostrando total de doces, destaques e categorias
-* Botao pra exportar os dados em JSON
+ Formulario pra cadastrar doce novo
+ Lista de todos os doces cadastrados
+Botao de editar que preenche o formulario
+ Botao de remover que pede confirmacao antes
+ Estatisticas mostrando total de doces, destaques e categorias
+*Botao pra exportar os dados em JSON
 
-## Decisoes que tomei
+-- Decisoes que tomei
 
 Resolvi usar o padrao MVC que o professor ensinou nas aulas. MVC significa Model-View-Controller e basicamente e uma forma de organizar o codigo separando as responsabilidades.
 
@@ -72,7 +72,7 @@ O site e responsivo, usei media queries pra ajustar o layout em telas menores. N
 
 Design, no design utilizei estas cores marrom, branco mais "pastel", para dar aquele tom de suavidade, algo doce, no próprio titulo ao final da frase "coração sorrir", dei a escurecida com cor de chocolate, e no canto uma bolha para dar aquele tom doce pro site, como se fosse feito de chocolate.
 
-## Uso do JSON
+-- Uso do JSON
 
 O JSON aparece em varios lugares:
 
@@ -83,7 +83,7 @@ O JSON aparece em varios lugares:
 
 Foi importante entender bem como funciona o JSON porque e usado em tudo no projeto.
 
-## Tecnologias usadas
+-- Tecnologias usadas
 
 HTML5 pra estrutura
 CSS3 com variaveis, grid, flexbox e animacoes
